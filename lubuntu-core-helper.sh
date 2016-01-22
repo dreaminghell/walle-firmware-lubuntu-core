@@ -9,5 +9,5 @@ export LC_ALL=C
 
 # Install deb
 apt-get -y install lubuntu-core
+apt-get -y install policykit-1
 apt-get clean
-
