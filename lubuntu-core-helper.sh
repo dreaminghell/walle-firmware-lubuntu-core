@@ -10,7 +10,6 @@ export LC_ALL=C
 # Install deb
 apt-get -y install lubuntu-core
 apt-get -y install policykit-1 chromium-browser
-apt-get -y install xserver-xorg-video-armsoc
 apt-get -y install glmark2-es2
 apt-get clean
 
