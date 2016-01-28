@@ -25,8 +25,8 @@ echo "user-session=Lubuntu" >> /etc/lightdm/lightdm.conf.d/20-lubuntu.conf
 chmod 0644 /etc/lightdm/lightdm.conf.d/20-lubuntu.conf
 
 # use Chinese language by default
-echo "zh_CN.UTF-8" >> /etc/environment
-echo "zh_CN:zh:en_US:en" >> /etc/environment
+echo "LANG=\"zh_CN.UTF-8\"" >> /etc/environment
+echo "LANGUAGE=\"zh_CN:zh:en_US:en\"" >> /etc/environment
 
 # use libmali for glmark2 with X11
 ln -sf libmali.x11.so /usr/lib/libmali.so
