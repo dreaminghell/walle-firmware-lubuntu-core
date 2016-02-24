@@ -13,7 +13,7 @@ apt-get -y install lubuntu-core
 apt-get -y install language-pack-en language-pack-zh-hans
 apt-get -y install fonts-arphic-uming fonts-arphic-ukai fonts-droid
 apt-get -y install policykit-1 chromium-browser chromium-browser-l10n
-apt-get -y install glmark2-es2
+apt-get -y install glmark2-es2 luvcview
 apt-get clean
 
 mkdir -p /etc/lightdm/lightdm.conf.d
